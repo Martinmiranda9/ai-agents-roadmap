@@ -1,10 +1,9 @@
 # AI Agents — Roadmap de estudio
 
-Apuntes de estudio sobre **AI Agents**, siguiendo el cuadro de [roadmap.sh/ai-agents](https://roadmap.sh/ai-agents), módulo por módulo y nodo por nodo.
+Apuntes de estudio sobre **AI Agents**
 
 Cada archivo cubre un módulo con la misma estructura: qué es, para qué sirve, dónde se aplica, cómo se aplica (con ejemplos cortos en Python) y un ejemplo concreto, más una conclusión que lo conecta con el módulo siguiente.
 
-**Autor:** Martín Miranda · [martinmiranda.info](https://martinmiranda.info/)
 **Última actualización:** noviembre de 2026
 
 ## Índice
