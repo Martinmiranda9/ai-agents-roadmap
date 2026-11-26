@@ -21,29 +21,6 @@ Cada archivo cubre un módulo con la misma estructura: qué es, para qué sirve,
 | 9 | [Debugging and Monitoring](Modulo%209%20-%20Debugging%20and%20Monitoring.md) | Logging estructurado, tracing, LangSmith, Langfuse, Helicone, OpenLLMetry, alertas de producción |
 | 10 | [Security & Ethics](Modulo%2010%20-%20Security%20and%20Ethics.md) | Prompt injection, sandboxing y permisos, privacidad y PII, guardrails de sesgo, red teaming |
 
-## Notas sobre el material
-
-Estos apuntes no son una transcripción del roadmap: siguen su orden y sus nodos, pero el contenido está reescrito y, donde el roadmap quedó desactualizado, corregido y verificado contra fuentes primarias.
-
-### Correcciones respecto del cuadro original
-
-- **"Model Mechanis"** → el nodo correcto es **Model Mechanics** (figura cortado en el PDF del roadmap).
-- **"Smol Depot"** → es **smolagents**, el framework de Hugging Face.
-- **OpenAI Assistant API** → figura como nodo del roadmap, pero fue deprecada el 26/08/2025 y **se apagó el 26 de agosto de 2026**. El camino actual es la **Responses API**. Los tutoriales con `client.beta.assistants` están obsoletos.
-- **AutoGen** → en *maintenance mode* desde octubre de 2025. El sucesor oficial es **Microsoft Agent Framework 1.0** (GA abril de 2026); existe además **AG2**, fork comunitario Apache 2.0.
-- **MCP** → desde diciembre de 2025 es proyecto de la **Agentic AI Foundation** de la Linux Foundation (donado por Anthropic), con licencia Apache 2.0 y gobernanza neutral.
-- **LangChain / LangGraph** → ambos llegaron a **1.0 el 22/10/2025**, designados LTS.
-
-### Nodos agregados (están en el roadmap online, no en el PDF)
-
-- **Multi-Agents** y **Self-critique / Reflexion** → cubiertos como complemento en el Módulo 6.
-- **LangGraph** → cubierto en los módulos 6 y 7.
-
-### Criterios
-
-- Los **precios de modelos** se explican como mecanismo (costo por token de input y output) sin cifras concretas: cambian demasiado seguido como para dejarlas escritas. Hay que mirarlas en la página de pricing del proveedor.
-- Donde una afirmación es **opinión** y no consenso de la industria (por ejemplo, qué framework elegir), está marcada como tal en el texto.
-- Las **versiones de frameworks** se citan con fecha de verificación. Conviene chequear el repo oficial antes de fijar dependencias.
 
 ## Fuentes
 
